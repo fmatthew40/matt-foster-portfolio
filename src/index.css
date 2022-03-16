@@ -184,7 +184,8 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
+/* used */
+.flexrow {
   display: flex;
   flex-wrap: wrap;
 }
