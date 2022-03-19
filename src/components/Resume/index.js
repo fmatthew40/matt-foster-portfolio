@@ -9,11 +9,8 @@ function Resume() {
             <ul>Front-End Proficiencies:
                 <li>HTML, CSS, Javascript</li>
                 <li>Web APIs, Third-Party APIs, Server-Side APIs</li>
-                <li>Node.js, OOP, Express.js</li>
-                <li>SQL, ORM, MVC</li>
-                <li>Computer Science</li>
-                <li>NoSQL, PWA's, REACT</li>
-                <li>MERN, State</li>
+                <li>Node.js, OOP, Express.js</li>bjjkhjkhj
+          
             </ul>
 
         </section>

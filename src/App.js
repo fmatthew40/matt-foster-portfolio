@@ -6,6 +6,7 @@ import Nav from './components/Navigation'
 import Footer from './components/Footer'
 import Resume from './components/Resume'
 import Project from './components/Project'
+import Contact from './components/Contact'
 
 // function App() {
 //   const [categories] = useState([]);
@@ -33,13 +34,6 @@ import Project from './components/Project'
 
 function App() {
   const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -48,6 +42,7 @@ function App() {
 
   return (
     <div>
+      <header>
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
@@ -55,16 +50,19 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
+      </header>
       <main>
         {!contactSelected ? (
           <>
-            <Project currentCategory={currentCategory}></Project>
-            <About></About>
+            <About currentCategory={currentCategory}></About>
           </>
         ) : (
             <Resume></Resume>
           )}
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }

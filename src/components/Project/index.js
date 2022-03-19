@@ -1,12 +1,13 @@
 import React from 'react';
 // import resume from ''
 
-function Project() {
+function Project(props) {
+    const { currentCategory } = props
     return(
         <section>
-            <h2>Projects</h2>
+            <h1 id="project">Projects</h1>
             <p>projects here</p>
-            <ul>Front-End Projects:
+            <ul>Front-End Projects:hbjkh
                 
             </ul>
 
@@ -15,3 +16,4 @@ function Project() {
 }
 
 export default Project; 
+
