@@ -79,50 +79,32 @@ import Project from './components/Project'
 import Contact from './components/Contact'
 
 function App() {
-    const [categories] = useState([
-      {
-        name: "Portfolio",
-        description: "Collection of work that was created"
-        },
-        {
-        name: "Resume",
-        description: "My resume and list of proficiencies."
-        }
-    ]);
-    const [contactSelected, setContactSelected] = useState(false);
-    const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    const sections = ["About", "Contact", "Portfolio", "Resume"];
+    const [currentSection, setCurrentSection] = useState(sections[0]);
+
+  const renderView = () => {
+    switch (currentSection) {
+      case "About":
+        return <About/>
+      case "Contact":
+        return <Contact/>
+      case "Portfolio":
+        return <Project/>
+      case "Resume":
+        return <Resume/>
+      default:
+        return <About />
+    }
+  }
 
   return (
     <div>
       <Nav
-       categories={categories}
-       setCurrentCategory={setCurrentCategory}
-       currentCategory={currentCategory}
-       contactSelected={contactSelected}
-       setContactSelected={setContactSelected}
+       setCurrentSection={setCurrentSection}
+       currentSection={currentSection}
       ></Nav>
       <main>
-      {/* <Resume>`{currentCategory}`</Resume> */}
-
-        <div>
-        {!contactSelected ? (
-  <>
-    <About currentCategory={currentCategory}></About>
-    {/* <Resume currentCategory={currentCategory}></Resume> */}
-  </>
-) : (
-    <Contact></Contact>
-
-  )}
-
-        </div>
-        <div>
-          <Project></Project>
-        </div>
-        <div>
-          <Resume></Resume>
-        </div>
-
+      {renderView()}
       </main>
       <footer><Footer></Footer></footer>
     </div>

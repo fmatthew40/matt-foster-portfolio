@@ -10,7 +10,9 @@ function Project(props) {
             <h1 className="cards">Portfolio</h1>
 
                 <article className="projects">
-                <h4>Recipe Warriors</h4>
+                <h4>Recipe Warriors<br></br>
+                <a href="https://github.com/fmatthew40/recipe-warriors" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a>
+                </h4>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
                     <img className="projects-img" src={recipePic} alt="recipes" img></img>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
@@ -18,7 +20,8 @@ function Project(props) {
                 </article>
 
                 <article className="projects">
-                <h4>Recipe Warriors</h4>
+                <h4>Recipe Warriors<br></br>
+                <a href="https://github.com/fmatthew40/recipe-warriors" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
                     <img className="projects-img" src={recipePic} alt="recipes" img></img>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
@@ -26,7 +29,8 @@ function Project(props) {
                 </article>
 
                 <article className="projects">
-                <h4>Recipe Warriors</h4>
+                <h4>Recipe Warriors<br></br>
+                <a href="https://github.com/fmatthew40/recipe-warriors" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
                     <img className="projects-img" src={recipePic} alt="recipes" img></img>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
@@ -34,7 +38,8 @@ function Project(props) {
                 </article>
 
                 <article className="projects">
-                <h4>Recipe Warriors</h4>
+                <h4>Recipe Warriors<br></br>
+                <a href="https://github.com/fmatthew40/recipe-warriors" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
                     <img className="projects-img" src={recipePic} alt="recipes" img></img>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
@@ -42,7 +47,8 @@ function Project(props) {
                 </article>
 
                 <article className="projects">
-                <h4>Recipe Warriors</h4>
+                <h4>Recipe Warriors<br></br>
+                <a href="https://github.com/fmatthew40/recipe-warriors" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
                     <img className="projects-img" src={recipePic} alt="recipes" img></img>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
@@ -50,7 +56,8 @@ function Project(props) {
                 </article>
 
                 <article className="projects">
-                <h4>Recipe Warriors</h4>
+                <h4>Recipe Warriors<br></br>
+                <a href="https://github.com/fmatthew40/recipe-warriors" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
                     <img className="projects-img" src={recipePic} alt="recipes" img></img>
                     <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">

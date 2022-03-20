@@ -5,17 +5,13 @@ import React, { useEffect } from 'react';
 function Nav(props) {
 
   const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory, 
-    contactSelected,
-    setContactSelected
-  
+    setCurrentSection,
+    currentSection, 
   } = props;
 
-  useEffect(() => {
-    document.title = (currentCategory.name);
-  }, [currentCategory]);
+  // useEffect(() => {
+  //   document.title = (currentCategory.name);
+  // }, [currentCategory]);
 
   return (
     <header className="flex- px-1">
@@ -26,33 +22,39 @@ function Nav(props) {
         </h2>
         <nav>
           <ul className="flex-row">
-            <li className="mx-2" >
-              {/* <a href="#about"> */}
-              <a href="#about" onClick={() => setContactSelected(false) }>
-
-                 {/* onClick={() => handleClick()}>About Me</a> */}
-                 About Me</a>
+          <li className={`mx-2`}>
+              <a href="#about"
+                className={`${currentSection === 'About' && 'navActive'}`}
+                onClick={() => {setCurrentSection("About")}}>About</a>
             </li>
-            <li className={`mx-2
-           ${contactSelected && 'navActive'}`
-          }>
-              {/* <span onClick={() => handleClick()}>Contact</span> */}
-              {/* <span>Contact</span> */}
-              <span onClick={() => setContactSelected(true)}>Contact</span>
-
+            <li className={`mx-2`}>
+              <a href="#contact"
+                className={`${currentSection === 'Contact' && 'navActive'}`}
+                onClick={() => {setCurrentSection("Contact")}}>Contact</a>
+            </li>
+            <li className={`mx-2`}>
+              <a href="#portfolio"
+               className={`${currentSection === 'Portfolio' && 'navActive'}`}
+               onClick={() => {setCurrentSection("Portfolio")}}>Portfolio</a>
             </li>
 
-            {categories.map((category) => (
+            <li className={`mx-2`}>
+              <a href="#resume"
+                className={`${currentSection === 'Resume' && 'navActive'}`}
+                onClick={() => {setCurrentSection("Resume")}}>Resume</a>
+            </li>
+
+            {/* {categories.map((category) => (
               <li className={`mx-1  
               ${currentCategory.name === category.name && !contactSelected && 'navActive'
             }`}
               key={category.name} >
-                {/* <span onClick={() => { 
+                { <span onClick={() => { 
                   setCurrentCategory(category)}}
                   // handleClick(); }}
                   >
                  {(category.name)}
-                </span> */}
+                </span> }
 
                <span
                 onClick={() => {
@@ -65,7 +67,7 @@ function Nav(props) {
               </span>
               </li>
             ))
-          }
+          } */}
         </ul>
 
 
