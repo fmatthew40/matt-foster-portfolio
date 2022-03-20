@@ -1,56 +1,60 @@
 import React, { useState } from 'react';
 // import resume from ''
+import recipePic from './recipe.png';
 
 function Project(props) {
 	const { currentTab, setCurrentTab } = props;
     return(
-        <section>
-            <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
-            <h1>Projects</h1>
-        
-             
-
+        <section className="container">
+            <span onClick={() => setCurrentTab("Portfolio")}></span>
+            <h1 className="cards">Portfolio</h1>
 
                 <article className="projects">
-                    <a href="https://recipe-warriors.herokuapp.com/" alt="project"></a>
-                    <img src="./recipe.png" alt="recipes" img></img>
-                    <a href="https://recipe-warriors.herokuapp.com/" alt="Recipe Warriors">
-                    <h4>Group Project - Recipe Warriors</h4></a>
+                <h4>Recipe Warriors</h4>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
+                    <img className="projects-img" src={recipePic} alt="recipes" img></img>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
+                    </a>
                 </article>
 
                 <article className="projects">
-                    <a href="" alt="project"></a>
-                    <img src="" alt="" img></img>
-                    <a href="" alt="Bored and Brews">
-                    <h4>Group Project - Bored and Brews</h4></a>
+                <h4>Recipe Warriors</h4>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
+                    <img className="projects-img" src={recipePic} alt="recipes" img></img>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
+                    </a>
                 </article>
 
                 <article className="projects">
-                    <a href="" alt="project"></a>
-                    <img src="" alt="" img></img>
-                    <a href="" alt="Bored and Brews">
-                    <h4>Group Project - Bored and Brews</h4></a>
+                <h4>Recipe Warriors</h4>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
+                    <img className="projects-img" src={recipePic} alt="recipes" img></img>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
+                    </a>
                 </article>
 
                 <article className="projects">
-                    <a href="" alt="project"></a>
-                    <img src="" alt="" img></img>
-                    <a href="" alt="Bored and Brews">
-                    <h4>Group Project - Bored and Brews</h4></a>
+                <h4>Recipe Warriors</h4>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
+                    <img className="projects-img" src={recipePic} alt="recipes" img></img>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
+                    </a>
                 </article>
 
                 <article className="projects">
-                    <a href="" alt="project"></a>
-                    <img src="" alt="" img></img>
-                    <a href="" alt="Bored and Brews">
-                    <h4>Group Project - Bored and Brews</h4></a>
+                <h4>Recipe Warriors</h4>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
+                    <img className="projects-img" src={recipePic} alt="recipes" img></img>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
+                    </a>
                 </article>
 
                 <article className="projects">
-                    <a href="" alt="project"></a>
-                    <img src="" alt="" img></img>
-                    <a href="" alt="Bored and Brews">
-                    <h4>Group Project - Bored and Brews</h4></a>
+                <h4>Recipe Warriors</h4>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="project"></a>
+                    <img className="projects-img" src={recipePic} alt="recipes" img></img>
+                    <a href="https://recipe-warriors.herokuapp.com/" target="_blank" rel="noreferrer" alt="Recipe Warriors">
+                    </a>
                 </article>
                 
         </section>

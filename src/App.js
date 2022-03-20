@@ -119,6 +119,9 @@ function App() {
         <div>
           <Project></Project>
         </div>
+        <div>
+          <Resume></Resume>
+        </div>
 
       </main>
       <footer><Footer></Footer></footer>

@@ -1,22 +1,49 @@
-import React, { useState } from 'react';
+import React from 'react';
+import resLink from './Resume-tech.pdf'
 // import App from '../../App'
 // import resume from ''
 
-function Resume({ currentCategory }) {
-    const { name, description } = currentCategory;
+function Resume(props) {
+	const { currentTab, setCurrentTab } = props;
     return(
         <section>
-            <h2>Resume</h2>
-            <h1 >{(currentCategory.name)}</h1>
-            <p>{currentCategory.name}</p>
+            <h2 className="center">Resume</h2>
 
-            <p>Download Resume</p>
+            <a className="centered" href = {resLink} target="_blank" rel="noreferrer">Download Resume</a>
+
+            <div className="container">
             <ul>Front-End Proficiencies:
-                <li>HTML, CSS, Javascript</li>
-                <li>Web APIs, Third-Party APIs, Server-Side APIs</li>
-                <li>Node.js, OOP, Express.js</li>bjjkhjkhj
-          <h1> {name}</h1>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>React</li>
             </ul>
+            <ul>Back-End Proficiencies:
+                <li>API's</li>
+                <li>Node.Js</li>
+                <li>Express.js</li>
+                <li>Javascript</li>
+            </ul>
+
+            <ul>Database Proficiencies:
+                <li>SQL</li>
+                <li>NoSQL</li>
+                <li>Mongoose</li>
+                <li>Sequelize</li>
+            </ul>
+
+            <ul>Other Proficiencies:
+                <li>Git</li>
+                <li>MERN</li>
+                <li>State</li>
+                <li>PWA's</li>
+                <li>OOP</li>
+                <li>Heroku</li>
+                <li>bcrypt</li>
+            </ul>
+
+            </div>
 
         </section>
     )
