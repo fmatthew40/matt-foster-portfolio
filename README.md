@@ -12,8 +12,7 @@
   7.  [Questions](#questions)
 
  ## Screenshot
-
-
+ ![portfolio](https://user-images.githubusercontent.com/93060262/159196150-e5d033fd-02a5-4105-ac2d-0cb2c6c12fd1.png)
 
  ## Description
  To start, I created a new react app.  I made several components for different sections.  I made an "about me", "contact", "portfolio", and "resume" section.  I also included a header with a navigation bar and a footer.  The footer includes icons that link to my Github, linkedin, and twitter account.  
