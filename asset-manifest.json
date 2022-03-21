@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/matt-foster-portfolio/static/css/main.c97a1b5b.css",
+    "main.js": "/matt-foster-portfolio/static/js/main.c514589b.js",
+    "static/js/787.9edb92a2.chunk.js": "/matt-foster-portfolio/static/js/787.9edb92a2.chunk.js",
+    "static/media/food.png": "/matt-foster-portfolio/static/media/food.fece80bd905c65d7f1f0.png",
+    "static/media/earth.jpg": "/matt-foster-portfolio/static/media/earth.de5659898d3bfc5eb8ea.jpg",
+    "static/media/recipeswebsite.png": "/matt-foster-portfolio/static/media/recipeswebsite.04457edd1a25022dbd98.png",
+    "static/media/mypic.jpg": "/matt-foster-portfolio/static/media/mypic.9c0a3e6109793ee21532.jpg",
+    "static/media/Resume-tech.pdf": "/matt-foster-portfolio/static/media/Resume-tech.4b8dbea60b222a9d96a8.pdf",
+    "static/media/weather.png": "/matt-foster-portfolio/static/media/weather.d7d6d1af5e847e62fc45.png",
+    "static/media/budgets.png": "/matt-foster-portfolio/static/media/budgets.fcefd5980643dd727b3b.png",
+    "static/media/boredb.png": "/matt-foster-portfolio/static/media/boredb.0bde0ef0b27c4749d817.png",
+    "static/media/work.png": "/matt-foster-portfolio/static/media/work.f5fc815872c1d4660ac0.png",
+    "static/media/codequiz.png": "/matt-foster-portfolio/static/media/codequiz.7e28333be9d10f3d0943.png",
+    "static/media/password.png": "/matt-foster-portfolio/static/media/password.80c9cd4739677325b2a7.png",
+    "index.html": "/matt-foster-portfolio/index.html",
+    "main.c97a1b5b.css.map": "/matt-foster-portfolio/static/css/main.c97a1b5b.css.map",
+    "main.c514589b.js.map": "/matt-foster-portfolio/static/js/main.c514589b.js.map",
+    "787.9edb92a2.chunk.js.map": "/matt-foster-portfolio/static/js/787.9edb92a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c97a1b5b.css",
+    "static/js/main.c514589b.js"
+  ]
+}
