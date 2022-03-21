@@ -20,8 +20,7 @@
  The application allows the users to view projects that I added.  It allows them to contact me, read about me, and download a resume. 
 
  ## Deployed Link
-
-
+ https://fmatthew40.github.io/matt-foster-portfolio/
 
  ## Usage 
  The project's intended use is to act as a portfolio for potential employers.  The user can view an about me section and a portfolio of projects. The user can fill out a contact form in case they would like to reach out.  A resume is also available for upload in the resume section.  
