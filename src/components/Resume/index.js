@@ -1,7 +1,5 @@
 import React from 'react';
 import resLink from './Resume-tech.pdf'
-// import App from '../../App'
-// import resume from ''
 
 function Resume(props) {
 	const { currentTab, setCurrentTab } = props;
@@ -42,31 +40,9 @@ function Resume(props) {
                 <li>Heroku</li>
                 <li>bcrypt</li>
             </ul>
-
             </div>
-
         </section>
     )
 }
 
-
 export default Resume; 
-
-
-
-
-// function Resume(props) {
-
-
-//     const { currentCategory } = props;
-//     return (
-//       <section>
-//         <h1 >{(currentCategory.name)}</h1>
-        
-        
-//         <p>{currentCategory.description}hdkjfhkasdj</p>
-//         <Resume category={currentCategory.name} />
-//       </section>
-//     );
-//   }
-//   export default Resume;

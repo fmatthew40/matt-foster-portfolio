@@ -20,13 +20,13 @@ function Contact() {
     if (e.target.name === 'email') {
       const isValid = emailValidation(e.target.value);
       if (!isValid) {
-        setErrorMessage('invalid Email!');
+        setErrorMessage('invalid email');
       } else {
         setErrorMessage('');
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} required.`);
+        setErrorMessage(`${e.target.name} required`);
       } else {
         setErrorMessage('');
       }
