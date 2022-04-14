@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/matt-foster-portfolio/static/css/main.c97a1b5b.css",
-    "main.js": "/matt-foster-portfolio/static/js/main.c514589b.js",
+    "main.js": "/matt-foster-portfolio/static/js/main.09d13b28.js",
     "static/js/787.9edb92a2.chunk.js": "/matt-foster-portfolio/static/js/787.9edb92a2.chunk.js",
     "static/media/food.png": "/matt-foster-portfolio/static/media/food.fece80bd905c65d7f1f0.png",
+    "static/media/combochatpic.png": "/matt-foster-portfolio/static/media/combochatpic.927f72a4d2a96dab2002.png",
     "static/media/earth.jpg": "/matt-foster-portfolio/static/media/earth.de5659898d3bfc5eb8ea.jpg",
     "static/media/recipeswebsite.png": "/matt-foster-portfolio/static/media/recipeswebsite.04457edd1a25022dbd98.png",
     "static/media/mypic.jpg": "/matt-foster-portfolio/static/media/mypic.9c0a3e6109793ee21532.jpg",
@@ -16,11 +17,11 @@
     "static/media/password.png": "/matt-foster-portfolio/static/media/password.80c9cd4739677325b2a7.png",
     "index.html": "/matt-foster-portfolio/index.html",
     "main.c97a1b5b.css.map": "/matt-foster-portfolio/static/css/main.c97a1b5b.css.map",
-    "main.c514589b.js.map": "/matt-foster-portfolio/static/js/main.c514589b.js.map",
+    "main.09d13b28.js.map": "/matt-foster-portfolio/static/js/main.09d13b28.js.map",
     "787.9edb92a2.chunk.js.map": "/matt-foster-portfolio/static/js/787.9edb92a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c97a1b5b.css",
-    "static/js/main.c514589b.js"
+    "static/js/main.09d13b28.js"
   ]
 }
