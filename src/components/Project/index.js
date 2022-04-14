@@ -7,6 +7,7 @@ import foodPic from './food.png'
 import passwordPic from './password.png'
 import codePic from './codequiz.png'
 import boredPic from './boredb.png'
+import comboChatPic from './combochatpic.png'
 
 function Project(props) {
 	const { currentTab, setCurrentTab } = props;
@@ -77,6 +78,14 @@ function Project(props) {
                 <h4>
                 <a href="https://github.com/fmatthew40/bored-and-brews" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
                 <img className="projects-img" src={boredPic} alt="bored and brews"></img>   
+            </article>
+
+            <article className="projects">
+                <h4>
+                <a href="https://calm-hollows-50430.herokuapp.com/" target="_blank" rel="noreferrer" alt="github repo">Combo Chat</a></h4>
+                <h4>
+                <a href="https://github.com/blake-georgii/combo-chat" target="_blank" rel="noreferrer" alt="github repo">Github Repository</a></h4>
+                <img className="projects-img" src={comboChatPic} alt="bored and brews"></img>   
             </article>
 
         </section>
